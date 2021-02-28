@@ -71,6 +71,10 @@ section#welcome, section#skills {
     padding: 2rem 0;
 }
 
+section#skills {
+    text-align: center;
+}
+
 a#site-branding {
     font-size: 2rem;
 }
