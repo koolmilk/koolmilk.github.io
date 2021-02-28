@@ -61,7 +61,11 @@ a {
     text-decoration: none;
 }
 
-main, section#skills {
+main {
+min-height: calac(100vh - 125px);
+}
+
+section#welcome, section#skills {
     display: flex;
     align-items: center;
     padding: 2rem 0;
