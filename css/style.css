@@ -1,0 +1,87 @@
+:root {
+    --bg-color: #FAFAFA;
+    --text-color: #000000;
+
+    --text-font: "Inconsolata";
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: 'Inconsolata', monospace;
+
+    font-size: 1.4rem;
+
+    margin: 2rem;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 75px;
+}
+
+header nav ul,
+footer nav ul {
+    list-style: none;
+
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li,
+footer nav ul li {
+    margin-left: 25px;
+}
+
+footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 50px;
+}
+
+h1 {
+    font-size: 3.2rem;
+}
+
+h2 {
+    font-size: 2.2rem;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 1.8rem;
+}
+
+a {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+main, section#skills {
+    display: flex;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+a#site-branding {
+    font-size: 2rem;
+}
+
+/*Property Classes*/
+
+.bottomline {
+    border-bottom: 1px solid var(--text-color);
+}
+
+.topline {
+    border-top: 1px solid var(--text-color);
+}
